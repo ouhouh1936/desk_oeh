@@ -1,0 +1,79 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/15/11/05/texture-2068283_1280.jpg");
+  background-size: cover;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main p {
+  margin: 20px 0px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: red;
+}
+.main h1 {
+  font-size: 40px;
+  color: rgb(70, 70, 70);
+  text-shadow: 3px 3px 3px grey;
+  font-weight: 600;
+  margin: 0px 0px 30px 0px;
+}
+.main form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0px 0px 300px 0px;
+}
+.main form select {
+  width: 200px;
+  height: 25px;
+
+  outline: none;
+  background-color: none;
+  border: none;
+  margin: 0px 15px;
+
+  font-size: 18px;
+  color: #222;
+
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px #333;
+
+  padding: 0px 10px;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+.main form select:hover {
+  box-shadow: 3px 3px 3px;
+  color: royalblue;
+}
+.main form input[type="submit"] {
+  width: 100px;
+  height: 35px;
+
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  background: none;
+  border: none;
+
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px #333;
+  transition: 0.5s;
+}
+.main form input[type="submit"]:hover {
+  color: royalblue;
+}

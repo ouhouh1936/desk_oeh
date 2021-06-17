@@ -1,0 +1,25 @@
+extends  ../layouts/base.pug
+block  content 
+    section.main 
+        h1 Welcome Desk 
+
+        p #{errorMsg}
+        
+        form(action="/result", method="GET")
+            select(name="color")
+                option(value=false) --선택--
+                option(value="red") red 
+                option(value="brown")  brown
+                option(value="blue")  blue
+                option(value="basic")  basic
+                option(value="black")  black
+            input(type="submit" value="조회")
+            
+
+
+
+
+
+
+            
+
